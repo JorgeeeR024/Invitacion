@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3; /* Color de fondo suave que representa amor */
+    background-image: url(./From\ my\ Heart\ II.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 800px;
+    background-color: #fff; /* Fondo blanco para el contenedor principal */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contenedor-texto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.imagen-circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste de la imagen */
+}
+
+/* Estilo del texto */
+.carta {
+    text-align: justify;
+    line-height: 1.6;
+    font-family: 'Times New Roman', serif; /* Cambia la fuente del texto */
+    font-size: 18px; /* Cambia el tamaño del texto */
+    color: #333; /* Cambia el color del texto */
+}
+
+/* Estilo del párrafo */
+.carta p {
+    margin-bottom: 10px; /* Añade un espacio entre párrafos */
+}
+
+/* Estilo de los enlaces */
+.carta a {
+    color: #cc0000; /* Cambia el color de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    font-weight: bold; /* Añade negrita a los enlaces */
+}
+
+/* Estilo de los enlaces al pasar el ratón */
+.carta a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
